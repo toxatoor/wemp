@@ -13,10 +13,10 @@ Known to work on Windows 10 with PowerShell 5.1.17763.1432. Wasn't tested on dif
 Running `./wemp.ps1` shows basic help. 
 Default target dir is `C:\WEMP`
 
-`./wemp.ps1 install`   - downloads and configures apps, installs services. 
-`./wemp.ps1 start`     - starts stack
-`./wemp.ps1 stop`      - stops stack 
-`./wemp.ps1 uninstall` - removes services
+- `./wemp.ps1 install`   - downloads and configures apps, installs services. 
+- `./wemp.ps1 start`     - starts stack
+- `./wemp.ps1 stop`      - stops stack 
+- `./wemp.ps1 uninstall` - removes services
 
 After services removed, it's safe to delete whole target dir to remove stack completely. 
  
