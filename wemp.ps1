@@ -123,6 +123,8 @@ This is help
 
 Usage: wemp.ps1 command [target_dir]
 
+Default Target dir: $install_path    
+
 Main Commands: 
 
 install         - { download ; unpack; configure; install_service }
